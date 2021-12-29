@@ -1,4 +1,4 @@
-name: "Reusable Gradle Wrapper validation workflow"
+name: Reusable Gradle Wrapper validation workflow
 
 on: [workflow_call]
 
