@@ -1,5 +1,7 @@
 name: "Reusable Gradle Wrapper validation workflow"
 
+on: [workflow_call]
+
 jobs:
   validation:
     name: Gradle Wrapper Validation ✅
