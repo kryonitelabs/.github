@@ -9,6 +9,11 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.4.0
+      - name: Set up JDK ⚙️
+        uses: actions/setup-java@v2.5.0
+        with:
+          distribution: 'temurin'
+          java-version: '17'
       - name: Compile JavaDoc 🔧
         run: ./gradlew javadoc
       - name: Extract release ✂️
