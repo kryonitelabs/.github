@@ -1,6 +1,9 @@
 name: Reusable label sync workflow
 
-on: [workflow_call]
+on:
+  workflow_call:
+  schedule:
+    - cron: '0 21 * * *'
 
 jobs:
   sync-labels:

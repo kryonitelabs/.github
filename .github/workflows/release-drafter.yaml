@@ -1,0 +1,12 @@
+name: Reusable Release Drafter workflow
+
+on: [workflow_call]
+
+jobs:
+  update-release-draft:
+    name: Update release draft 🗒️
+    runs-on: ubuntu-latest
+    steps:
+      - uses: release-drafter/release-drafter@v5.15.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
