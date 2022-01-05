@@ -41,7 +41,7 @@
 
 - name: 'invalid'
   color: D2DAE1
-  description: 'This doesn't seem right or this issue isnt our fault'
+  description: 'This doesnt seem right or this issue isnt our fault'
 
 - name: 'good first issue'
   color: 4F4D7A
