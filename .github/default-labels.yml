@@ -50,3 +50,19 @@
 - name: 'help wanted'
   color: 076057
   description: 'Extra attention is needed'
+
+- name: 'skip-changelog'
+  color: D2DAE1
+  description: 'Skips this pullrequest when generating changelogs'
+
+- name: 'major'
+  color: FFC274
+  description: 'Marks a pull requests containing a major change'
+
+- name: 'minor'
+  color: FFC274
+  description: 'Marks a pull requests containing a minor change'
+
+- name: 'patch'
+  color: FFC274
+  description: 'Marks a pull requests containing a patch change'
