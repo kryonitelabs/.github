@@ -8,7 +8,7 @@
 
 - name: 'security'
   color: EE3F46
-  description: 'A security vunarbility'
+  description: 'A security vulnerability'
 
 - name: 'chore'
   color: FFF2C0
