@@ -1,0 +1,52 @@
+- name: 'bug'
+  color: EE3F46
+  description: 'Verified problems that need to be worked on'
+
+- name: 'bugfix'
+  color: EE3F46
+  description: 'A pull request that fixes a verified bug'
+
+- name: 'security'
+  color: EE3F46
+  description: 'A security vunarbility'
+
+- name: 'chore'
+  color: FFF2C0
+  description: 'Code changes that neither fix bugs nor add features (refactoring, ...)'
+
+- name: 'docs'
+  color: FFF2C0
+  description: 'Improvements or additions to documentation'
+  aliases: ['documentation']
+
+- name: 'dependencies'
+  color: FFF2C0
+  description: 'This issue or pull requests requests an update of a dependency'
+
+- name: 'enhancement'
+  color: 91CA55
+  description: 'An improvement or optimization for a already existing feature'
+
+- name: 'feature'
+  color: 91CA55
+  description: 'New feature or feature request'
+
+- name: 'wontfix'
+  color: D2DAE1
+  description: 'This will not be worked on'
+
+- name: 'duplicate'
+  color: D2DAE1
+  description: 'This issue or pull request already exists'
+
+- name: 'invalid'
+  color: D2DAE1
+  description: 'This doesn't seem right or this issue isnt our fault'
+
+- name: 'good first issue'
+  color: 4F4D7A
+  description: 'Good issue for newcomers'
+
+- name: 'help wanted'
+  color: 076057
+  description: 'Updates to existing functionalities'
