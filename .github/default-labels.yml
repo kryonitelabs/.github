@@ -48,7 +48,7 @@
   description: 'Good issue for newcomers'
 
 - name: 'help wanted'
-  color: 076057
+  color: 075C53
   description: 'Extra attention is needed'
 
 - name: 'skip-changelog'
