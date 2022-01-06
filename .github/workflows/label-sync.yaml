@@ -1,6 +1,7 @@
 name: Reusable label sync workflow
 
 on:
+  workflow_dispatch:
   workflow_call:
   schedule:
     - cron: '0 12 * * *'
