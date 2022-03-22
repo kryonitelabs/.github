@@ -14,7 +14,7 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
       - name: Cache gradle related files 🗄️
-        uses: actions/cache@v2.1.7
+        uses: actions/cache@v3
         with:
           path: |
             ~/.gradle/caches
@@ -39,7 +39,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Cache gradle related files 🗄️
-        uses: actions/cache@v2.1.7
+        uses: actions/cache@v3
         with:
           path: |
             ~/.gradle/caches
@@ -64,7 +64,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Cache gradle related files 🗄️
-        uses: actions/cache@v2.1.7
+        uses: actions/cache@v3
         with:
           path: |
             ~/.gradle/caches
@@ -73,7 +73,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle-
       - name: Cache SonarCloud packages 🗄️
-        uses: actions/cache@v2.1.7
+        uses: actions/cache@v3
         with:
           path: ~/.sonar/cache
           key: ${{ runner.os }}-sonar
