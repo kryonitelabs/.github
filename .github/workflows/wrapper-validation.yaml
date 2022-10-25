@@ -10,4 +10,4 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
       - name: Validate Gradle wrapper ✅
-        uses: gradle/wrapper-validation-action@v1.0.4
+        uses: gradle/wrapper-validation-action@v1.0.5
